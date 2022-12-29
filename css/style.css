@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{  
+   background: url("images/bg.jpg")no-repeat;
+   background-size: cover;
+   
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.green{
+    top:10px;
+    left: 35%;
+    width: 600px;
+    height: 300px;
+    background: green ;
+    position: relative;
+}
+
+.red{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: red;
+    position: absolute;
+    top: 22%;
+    left: 35%;
+}
+.youtube{
+    width: 135px;
+    position: fixed;
+    top: 45%;
+    right: -5%;   
+    transition: 1s;
+} 
+.youtube:hover{
+    right: 12px;
+}                   
+.insta{
+    width: 140px;
+    position: fixed;
+    top: 50%;
+    right: -5.5%;   
+    transition: 1s;
+} 
+.insta:hover{
+    right: 12px;
+}
+.gmail{
+    width: 138px;
+    position: fixed;
+    top: 55%;
+    right: -5%;   
+    transition: 1s;
+} 
+.gmail:hover{
+    right: 12px;
+  
+}
+.facebook{
+    width: 150px;
+    position: fixed;
+    top: 40%;
+    right: -5.8%;   
+    transition: 1s;
+} 
+.facebook:hover{
+    right: 12px;   
+}    
+.social-icons{
+    width: 60%;
+    margin: 0% 20%;
+    padding: 40px 0px;
+    text-align: center;
+   
+}    
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+    font: serif;
+    font-size: 20px;
+    
+}
+.social-icons li a{
+    display: block;
+    font-size: 35px;
+    margin: 0px 5px;
+}
+.social-icons li a{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background:black;
+    color: red;
+    border-radius: 50%;
+    transition: .5s;
+    border: 1px solid black;
+}
+.social-icons li a:hover{
+    background: white;
+    color: black
+}
+.social-icons li a:focus{
+    background: transparent;
+    color: black;
+}
